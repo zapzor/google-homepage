@@ -1,0 +1,118 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  -moz-appearance: none;
+}
+
+body {
+  font-family: arial,sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#logo-container {
+  position: relative;
+  text-align: center;
+  top: 170px;
+}
+  
+#google-logo {
+  width: 300px;
+  height: 100px;
+}
+
+#search-container {
+  position: relative;
+  text-align: center;
+  top: 190px;
+}
+
+#search-box {
+  width: 600px;
+  height: 35px;
+
+  border: 1px solid #dfe1e5;    
+  border-radius: 20px;
+}
+
+#top-navbar-container {
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#bottom-navbar-container {
+  bottom: 0; 
+  position: fixed;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.left-navbar {
+  float: left;
+  padding: 5px;  
+}
+
+.right-navbar {
+  float: right;
+  padding: 5px;
+}
+
+.navbar {
+  display: block;
+  padding: 10px;
+
+  font-size: 13px;
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar-color {
+  color: #5f6368;
+}
+
+.navbar:hover{
+  text-decoration: underline;
+}
+
+#button-container {
+  position: relative;
+  text-align: center;
+  margin: 180px;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+
+#google-apps-icon{
+  height: 25px;
+  margin: 5px
+}
+
+.button-text {
+  text-decoration: none;
+  color: black;
+}
+
+#magnify {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 280px;
+  top: -29px;
+  color: #9AA0A6;
+}
