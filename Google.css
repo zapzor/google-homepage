@@ -100,12 +100,12 @@ a:hover{
 
 #google-apps-icon{
   height: 25px;
-  margin: 5px
+  margin: -5px;
 }
 
 .button-text {
   text-decoration: none;
-  color: black;
+  color: #5f6368;
 }
 
 #magnify {
@@ -115,4 +115,12 @@ a:hover{
   right: 280px;
   top: -29px;
   color: #9AA0A6;
+}
+
+#sign-in-button {
+  display: inline-block;
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  line-height: 10px;
 }
